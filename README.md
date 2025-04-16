@@ -20,7 +20,7 @@
 
 服务启动后，访问 `http://localhost:12306/generate?code=FOXKP0717B2A7572` 来通过证书code打印证书信息。
 
-正常情况下，API会返回如下示例信息：
+正常情况下，图像文件会保存在 `cert-img` 目录下，并且API会返回如下示例信息：
 
 ```
 {
