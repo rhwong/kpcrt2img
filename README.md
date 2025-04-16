@@ -3,7 +3,7 @@
 
 ## 安装方法
 
-1.去release下载我打包好的Windows包,双击`启动.exe`
+1.去release下载我打包好的Windows包,双击`启动.bat`
 
 2.自己安装nodejs
 
