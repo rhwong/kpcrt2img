@@ -329,9 +329,8 @@ app.get('/generate', async (req, res) => {
 		logger('debug', '证书绘制完成', { requestId });
 		
         // 保存图片到文件系统
-		const imageBuffer = canvas.toBuffer('image/jpeg', { quality: 0.9 });
-
-        // 保存文件
+	const imageBuffer = canvas.toBuffer('image/jpeg', { quality: 0.9 });
+		
         fs.writeFileSync(filePath, imageBuffer);
         logger('success', '证书文件已保存', {
             requestId,
